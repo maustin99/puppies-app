@@ -1,12 +1,24 @@
 {
   "name": "puppies-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninakivu/puppies-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ninakivu/puppies-app/issues"
+  },
+  "homepage": "https://github.com/ninakivu/puppies-app#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
 }
